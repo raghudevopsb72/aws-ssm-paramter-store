@@ -16,9 +16,9 @@ parameters = [
   { name = "dev.rds.db_host", value = "rds-dev-rds.cluster-cmscnppwjzuf.us-east-1.rds.amazonaws.com" },
   { name = "dev.shipping.db_user", value = "root" },
   { name = "dev.payment.cart_host", value = "cart-dev.rdevopsb72.online" },
-  { name = "dev.payment.cart_port", value = "8080" },
+  { name = "dev.payment.cart_port", value = "80" },
   { name = "dev.payment.user_host", value = "user-dev.rdevopsb72.online" },
-  { name = "dev.payment.user_port", value = "8080" },
+  { name = "dev.payment.user_port", value = "80" },
   { name = "dev.payment.amqp_host", value = "rabbitmq-dev.rdevopsb72.online" },
   { name = "dev.payment.amqp_user", value = "roboshop" },
   { name = "dev.docdb.db_endpoint", value = "docdb-dev.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com" }
