@@ -9,9 +9,9 @@ parameters = [
   { name = "dev.user.mongo", value = "DOCUMENTDB=true" },
   { name = "dev.user.redis_host", value = "elasticache-dev-elasticache.ppugfs.ng.0001.use1.cache.amazonaws.com" },
   { name = "dev.user.mongo_endpoint", value = "mongodb-dev.rdevopsb72.online" },
-  { name = "dev.cart.redis_host", value = "redis-dev.rdevopsb72.online" },
+  { name = "dev.cart.redis_host", value = "elasticache-dev-elasticache.ppugfs.ng.0001.use1.cache.amazonaws.com" },
   { name = "dev.cart.catalogue_host", value = "catalogue-dev.rdevopsb72.online" },
-  { name = "dev.cart.catalogue_port", value = "8080" },
+  { name = "dev.cart.catalogue_port", value = "80" },
   { name = "dev.shipping.cart_endpoint", value = "cart-dev.rdevopsb72.online:8080" },
   { name = "dev.shipping.db_host", value = "mysql-dev.rdevopsb72.online" },
   { name = "dev.shipping.db_user", value = "root" },
@@ -26,6 +26,7 @@ parameters = [
 
 passwords = [
   { name = "dev.payment.amqp_pass", value = "roboshop123" },
+  { name = "dev.payment.amqp_pass", value = "roboshop123" },dev.cart
   { name = "dev.shipping.db_pass", value = "RoboShop@1" },
   { name = "dev.docdb.db_user", value = "roboshop" },
   { name = "dev.docdb.db_pass", value = "roboshop123456" },
