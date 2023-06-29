@@ -1,0 +1,16 @@
+pipeline {
+  agent any
+
+  stages {
+
+    stage('Build Docker Image') {
+      steps {
+        sh 'docker build -t 633788536644.dkr.ecr.us-east-1.amazonaws.com/aws-parameter-store:latest .'
+        sh 'docker push 633788536644.dkr.ecr.us-east-1.amazonaws.com/aws-parameter-store:latest'
+      }
+    }
+
+  }
+
+}
+
