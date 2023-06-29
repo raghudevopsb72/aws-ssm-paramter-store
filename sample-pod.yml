@@ -1,4 +1,12 @@
 apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: oidc-ssm
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::633788536644:role/eks-ssm-ps-prod-role
+
+---
+apiVersion: v1
 kind: Pod
 metadata:
   name: sample-pod
@@ -10,9 +18,3 @@ spec:
       imagePullPolicy: Always
 
 ---
-apiVersion: v1
-kind: ServiceAccount
-metadata:
-  name: oidc-ssm
-  annotations:
-    eks.amazonaws.com/role-arn: arn:aws:iam::633788536644:role/eks-ssm-ps-prod-role
