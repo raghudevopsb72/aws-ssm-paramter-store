@@ -3,8 +3,8 @@ kind: Pod
 metadata:
   name: sample-pod
 spec:
-  imagePullPolicy: Always
   containers:
     - name: demo
       image: 633788536644.dkr.ecr.us-east-1.amazonaws.com/aws-parameter-store:latest
+      imagePullPolicy: Always
 
