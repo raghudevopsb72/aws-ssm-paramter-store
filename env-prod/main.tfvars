@@ -14,7 +14,7 @@ parameters = [
   { name = "prod.cart.redis_host", value = "elasticache-prod-elasticache.ppugfs.ng.0001.use1.cache.amazonaws.com" },
   { name = "prod.cart.catalogue_host", value = "catalogue" },
   { name = "prod.cart.catalogue_port", value = "80" },
-  { name = "prod.shipping.cart_endpoint", value = "cart-prod.rdevopsb72.online:80" },
+  { name = "prod.shipping.cart_endpoint", value = "cart:80" },
   { name = "prod.rds.db_host", value = "rds-prod-rds.cluster-cmscnppwjzuf.us-east-1.rds.amazonaws.com" },
   { name = "prod.shipping.db_user", value = "root" },
   { name = "prod.payment.cart_host", value = "cart-prod.rdevopsb72.online" },
