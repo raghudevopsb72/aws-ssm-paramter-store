@@ -12,7 +12,7 @@ parameters = [
   { name = "prod.user.redis_host", value = "elasticache-prod-elasticache.ppugfs.ng.0001.use1.cache.amazonaws.com" },
   { name = "prod.user.mongo_endpoint", value = "mongodb-prod.rdevopsb72.online" },
   { name = "prod.cart.redis_host", value = "elasticache-prod-elasticache.ppugfs.ng.0001.use1.cache.amazonaws.com" },
-  { name = "prod.cart.catalogue_host", value = "catalogue-prod.rdevopsb72.online" },
+  { name = "prod.cart.catalogue_host", value = "catalogue" },
   { name = "prod.cart.catalogue_port", value = "80" },
   { name = "prod.shipping.cart_endpoint", value = "cart-prod.rdevopsb72.online:80" },
   { name = "prod.rds.db_host", value = "rds-prod-rds.cluster-cmscnppwjzuf.us-east-1.rds.amazonaws.com" },
